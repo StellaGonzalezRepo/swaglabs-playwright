@@ -1,0 +1,27 @@
+{
+  "name": "swaglabs-playwright-e2e",
+  "version": "1.0.0",
+  "description": "E2E test automation suite for Swag Labs (saucedemo.com) built with Playwright + TypeScript, using the Page Object Model pattern.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "sync:confluence": "node scripts/sync_confluence.js"
+  },
+  "keywords": ["playwright", "e2e", "qa-automation", "testing", "typescript", "page-object-model"],
+  "author": "Stella Maris Gonzalez",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0",
+    "axios": "^1.4.0",
+    "turndown": "^7.1.1",
+    "dotenv": "^16.0.0"
+  }
+}
