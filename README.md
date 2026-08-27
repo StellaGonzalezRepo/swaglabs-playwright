@@ -28,7 +28,12 @@ swaglabs-playwright/
 ├── fixtures/
 │   └── users.ts            # Seeded test users & test data
 ├── tests/
-│   ├── login.spec.ts
+│   ├── Login/
+│   │   ├── sc-login-01.spec.ts
+│   │   ├── sc-login-02.spec.ts
+│   │   ├── sc-login-03.spec.ts
+│   │   ├── sc-login-04.spec.ts
+│   │   └── sc-login-05.spec.ts
 │   ├── inventory.spec.ts
 │   ├── cart.spec.ts
 │   ├── checkout.spec.ts
