@@ -19,7 +19,7 @@ export default defineConfig({
     timeout: 5_000,
   },
   use: {
-    headless: false,
+    headless: !process.env.CI,
     baseURL: 'https://www.saucedemo.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
