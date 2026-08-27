@@ -13,3 +13,5 @@ Run the Chromium suite with:
 ```bash
 npx playwright test --project=chromium
 ```
+
+The GitHub Actions workflow can be started manually from the Actions tab.
